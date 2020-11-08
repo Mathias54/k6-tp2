@@ -1,0 +1,19 @@
+{
+  "name": "k6-tp2",
+  "version": "1.0.0",
+  "description": "Projeto criado para execução do trabalho prático II",
+  "main": "k6/scripts/1-users.js",
+  "scripts": {
+    "test": "npm run test:primeiro && npm run test:segundo && npm run test:terceiro",
+    "test:primeiro": "k6 run --summary-export=./k6/resumos/1-users-summary.json ./k6/scripts/1-users.js",
+    "test:segundo": "k6 run --summary-export=./k6/resumos/10-users-summary.json ./k6/scripts/10-users.js",
+    "test:terceiro": "k6 run --summary-export=./k6/resumos/100-users-summary.json ./k6/scripts/100-users.js",
+    "start": "node index.js"
+  },
+  "author": "Mathias Gheno Azzolini",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/k6": "^0.28.2",
+    "@types/node": "^14.14.6"
+  }
+}
