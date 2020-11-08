@@ -2,8 +2,8 @@
 
 ### Pré-requisitos
 
-- instalar o node.js
-- instalar o k6
+- instalar o [node.js](https://nodejs.org/en/)
+- instalar o [k6](https://k6.io/docs/getting-started/installation)
 
 ### Obter resultados
 
