@@ -8,7 +8,7 @@
 ### Obter resultados
 
 - gerar os dados através do  `npm test`
-- exibir os resultado através do `npm start`
+- exibir os resultados através do `npm start`
 
 ### Casos de Teste
 
